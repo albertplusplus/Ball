@@ -63,6 +63,7 @@ void back()
 
 int main()
 {
+	printf("My change\n\n");
 	fvec pos = to_fvec(WIDTH / 4.0f, HEIGHT / 4.0f);
 	fvec vel = to_fvec(50.0f,1.0f);
 	fvec gravity = to_fvec(0.0f, GRAV);
